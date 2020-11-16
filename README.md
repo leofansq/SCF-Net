@@ -94,6 +94,6 @@ python visualization.py --dataset 'xxx' --ply_path "path_to_origin_ply" --label_
 
 ### Acknowledgment
 
-The code is highly based on the [RandLA-Net](https://github.com/QingyongHu/RandLA-Net)
+Part of our code refers to the work [RandLA-Net](https://github.com/QingyongHu/RandLA-Net)
 
 
