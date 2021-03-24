@@ -4,7 +4,7 @@
 
 ### (0) Abstract
 
-How to learn effective features from large-scale point clouds for semantic segmentation has attracted increasing attention in recent years. Addressing this problem, we propose a learnable module that learns Spatial Contextual Features from large-scale point clouds, called SCF in this paper. The proposed module mainly consists of three blocks, including the local polar representation block, the dual-distance attentive pooling block, and the global contextual feature block. For each 3D point, the local polar representation block is firstly explored to construct a locally rotation-invariant spatial representation, then the dual-distance attentive pooling block is designed to utilize the representations of its neighbors for learning more discriminative local features according to both the geometric and feature distances among them, and finally, the global contextual feature block is designed to learn a global context for each 3D point by utilizing its spatial location and the volume ratio of neighborhood to the global point cloud. The proposed module could be easily embedded into various network architectures for point cloud segmentation, naturally resulting in a new 3D semantic segmentation network with an encoder-decoder architecture, called SCF-Net in this work.
+How to learn effective features from large-scale point clouds for semantic segmentation has attracted increasing attention in recent years. Addressing this problem, we propose a learnable module that learns Spatial Contextual Features from large-scale point clouds, called SCF in this paper. The proposed module mainly consists of three blocks, including the local polar representation block, the dual-distance attentive pooling block, and the global contextual feature block. For each 3D point, the local polar representation block is firstly explored to construct a spatial representation that is invariant to the z-axis rotation, then the dual-distance attentive pooling block is designed to utilize the representations of its neighbors for learning more discriminative local features according to both the geometric and feature distances among them, and finally, the global contextual feature block is designed to learn a global context for each 3D point by utilizing its spatial location and the volume ratio of the neighborhood to the global point cloud. The proposed module could be easily embedded into various network architectures for point cloud segmentation, naturally resulting in a new 3D semantic segmentation network with an encoder-decoder architecture, called SCF-Net in this work. Extensive experimental results on two public datasets demonstrate that the proposed SCF-Net performs better than several state-of-the-art methods in most cases.
 
 ![abstract](./img/abstract.png)
 
@@ -28,10 +28,10 @@ This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN v
 
 * Download pertained models
 
-  | Dataset                  | Pretrained Model  |  Results  | 
-  |--------------------------|----------------|------------|
-  | S3DIS                    | [Baidu](https://pan.baidu.com/s/1QSdXmhuJYixxYFF70No4XQ): rw6m | [Baidu](https://pan.baidu.com/s/1CGyRUp0qPIfCEjdM_XlLXQ): tqpu |
-  | Semantic3D               | [Baidu](https://pan.baidu.com/s/1rsbPDTUXH-4-XvDSb0K2-g): bzcz | [Baidu](https://pan.baidu.com/s/1pQN7Zv57_q02aDDP3pX6hA): o66z |
+  | Dataset                  | Pretrained Model  | 
+  |--------------------------|----------------|
+  | S3DIS                    | [Baidu](https://pan.baidu.com/s/1QSdXmhuJYixxYFF70No4XQ): rw6m |
+  | Semantic3D               | [Baidu](https://pan.baidu.com/s/1rsbPDTUXH-4-XvDSb0K2-g): bzcz |
 
 ### (2) S3DIS
 
