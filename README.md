@@ -1,6 +1,13 @@
-## SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation
+# SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-s3dis)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis?p=scf-net-learning-spatial-contextual-features)
 
 ![architecture](./img/architecture.png)
+
+> For technical details, please refer to:
+>
+> [SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation](https://openaccess.thecvf.com/content/CVPR2021/html/Fan_SCF-Net_Learning_Spatial_Contextual_Features_for_Large-Scale_Point_Cloud_Segmentation_CVPR_2021_paper.html)
 
 ### (0) Abstract
 
