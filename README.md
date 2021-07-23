@@ -92,6 +92,20 @@ This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN v
 python visualization.py --dataset 'xxx' --ply_path "path_to_origin_ply" --label_path "path_to_label"
 ```
 
+### Citation
+
+If you find our work useful in your research, please consider citing:
+
+```
+@InProceedings{Fan_2021_CVPR,
+    author    = {Fan, Siqi and Dong, Qiulei and Zhu, Fenghua and Lv, Yisheng and Ye, Peijun and Wang, Fei-Yue},
+    title     = {SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {14504-14513}}
+```
+
 ### Acknowledgment
 
 Part of our code refers to the work [RandLA-Net](https://github.com/QingyongHu/RandLA-Net)
