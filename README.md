@@ -35,10 +35,10 @@ This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN v
 
 * Download pertained models
 
-  | Dataset                  | Pretrained Model  | 
-  |--------------------------|----------------|
-  | S3DIS                    | [Baidu](https://pan.baidu.com/s/1QSdXmhuJYixxYFF70No4XQ): rw6m |
-  | Semantic3D               | [Baidu](https://pan.baidu.com/s/1rsbPDTUXH-4-XvDSb0K2-g): bzcz |
+  | Dataset                  | Baidu Cloud  | Google Drive |
+  |--------------------------|----------------|----------------|
+  | S3DIS                    | [link](https://pan.baidu.com/s/1QSdXmhuJYixxYFF70No4XQ): rw6m | [link](https://drive.google.com/file/d/1zZUAFLI_sdefhySIhBtd7eTW9u4dWV01/view?usp=sharing) |
+  | Semantic3D               | [link](https://pan.baidu.com/s/1rsbPDTUXH-4-XvDSb0K2-g): bzcz | [link](https://drive.google.com/file/d/1f5MumuaJ97ut4Z9kIv4F1e7JdUvxBYT4/view?usp=sharing) |
 
 ### (2) S3DIS
 
