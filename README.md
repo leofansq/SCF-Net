@@ -2,6 +2,7 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-s3dis)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis?p=scf-net-learning-spatial-contextual-features)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/3d-semantic-segmentation-on-stpls3d)](https://paperswithcode.com/sota/3d-semantic-segmentation-on-stpls3d?p=scf-net-learning-spatial-contextual-features)
 
 ![architecture](./img/architecture.png)
 
@@ -89,7 +90,11 @@ This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN v
   python semantic3d_main.py --mode test --gpu 0 --model_path='path_to_model'
   ```
 
-### (4) Visualization
+### (4) STPLS3D
+
+* Please follow the official [guidance](https://github.com/meidachen/STPLS3D/tree/main/SCF-Net) of STPLS3D.
+
+### (5) Visualization
 
 ![S3DIS_VIS](./img/s3dis_vis.png)
 
